@@ -39,7 +39,7 @@ for _ in file['Event Master']:
 file = file.loc[0:count, :]
 
 
-# iterate over Venue to find if we have a 4DX venue
+# iterate over Venue to find if we have a 4DX, IMAX or VIP venue
 venue = [i.split()[0] for i in file['Venue']]
 
 
