@@ -40,7 +40,6 @@ def special_hall(k,venue):
                 venue[a[0]:a[-1] + 1] = [1 for _ in range(len(a))]
             else:
                 venue[a[0]:a[-1]+1] = [int(venue[a[0]-1])+1 for venue[a[0]] in range(len(a))]
-@st.experi
 def main_function(file,cinema_name,start_date,button):
     # --- Initialising SessionState ---
     if "load_state" not in st.session_state:
