@@ -2,9 +2,7 @@ from datetime import date, timedelta
 import streamlit as st
 import pandas as pd
 import numpy as np
-import pprint
-import os
-from zipfile import ZipFile
+
 
 
 file = st.file_uploader("Upload your file")
