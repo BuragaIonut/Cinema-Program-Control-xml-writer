@@ -8,13 +8,13 @@ from io import BytesIO
 import base64
 
 
-file = st.file_uploader("Upload your file")
+file = st.file_uploader("Upload your file:")
 # cinema_name = st.text_input("Name:")
 cinema_name = st.selectbox(
-     'Chose your cinema',
+     'Chose your cinema:',
      ('Cluj Iulius Mall','Cluj Polus'))
 start_date = st.date_input("Date:")
-button = st.button('Start')
+button = st.button('Do the magic')
 
 
 def cinema_city(a):
